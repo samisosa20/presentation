@@ -13,17 +13,17 @@
             {
                 "title": "Ingenieria De Producción",
                 "school": "Universidad de EAFIT",
-                "date": "2013-2019"
+                "date": "2013 - 2019"
             },
             {
                 "title": "Full Stack Software Developer",
                 "school": "Holberton School",
-                "date": "2020-2020"
+                "date": "2020 - 2020"
             },
             {
                 "title": "MBA",
                 "school": "EUDE Business school",
-                "date": "2024-HOY"
+                "date": "2024 - Actualidad"
             }
         ]
     },
@@ -33,19 +33,19 @@
             {
                 "title": "Frontend Team Lead",
                 "company": "Serempre",
-                "date": "12\/2020-Actualidad",
+                "date": "12\/2020 - Actualidad",
                 "description": "Gestión y desarrollo de múltiples proyectos abarcando las diferentes tecnologías comoReact, React Native, Vue.js y Webpack, tanto en la interfaz de usuario (UI) como en la lógica, empleando diversas bibliotecas y herramientas como Tailwind, Storybook, TypeScript, Redux, Anime.js y Styled Components. Contribución en la estimación de proyectos, asignación de tareas y revisión de código, con un enfoque en la mejora de la arquitectura utilizando enfoques como el Modelo-Vista-Controlador (MVC) y Hexagonal para lograr resultados óptimos."
             },
             {
                 "title": "Fundador",
                 "company": "iTPM Software",
-                "date": "08\/2018-Actualidad",
+                "date": "08\/2018 - Actualidad",
                 "description": "Diseñar, desarrollar y optimizar un sistema de manufactura alojado en AWS, haciendo uso de un conjunto diverso de tecnologías que incluyen Python, PHP, Node.js y SQL. Mantener una comunicación constante con los clientes para abordar problemas, implementar nuevas funcionalidades y diseñar estrategias de marketing destinadas a la adquisición de nuevos clientes. Además, planificar y llevar a cabo la migración del sistema utilizando la plataforma Laravel Orchid para asegurar un proceso eficiente y efectivo."
             },
             {
                 "title": "Anaista de mejoramiento continuo",
                 "company": "Forjas Bolivar S.A.S",
-                "date": "12\/2016-12\/2019",
+                "date": "12\/2016 - 12\/2019",
                 "description": "Mejorar procesos productivos para reducir costos y tiempo de entrega en varias líneas de producción, implementar TPM, establecer estándares de proceso para mejorar la productividad y calidad. Liderar áreas de producción, implementar programas de innovación y desarrollar una intranet corporativa para reportar órdenes, inventario e indicadores con gráficos."
             }
         ]

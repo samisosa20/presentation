@@ -1,6 +1,6 @@
 {
     "hero": {
-        "title": "Hola,<br>soy <span class=\"text-primary-300\">Sammy</span><br>Full Stack developer",
+        "title": "Hi,<br>I'm <span class=\"text-primary-300\">Sammy</span><br>Full Stack developer",
         "button": "Download CV"
     },
     "aboutMe": {
@@ -39,14 +39,14 @@
             {
                 "title": "CEO",
                 "company": "iTPM Software",
-                "date": "08\/2018 - Actualidad",
-                "description": "Diseñar, desarrollar y optimizar un sistema de manufactura alojado en AWS, haciendo uso de un conjunto diverso de tecnologías que incluyen Python, PHP, Node.js y SQL. Mantener una comunicación constante con los clientes para abordar problemas, implementar nuevas funcionalidades y diseñar estrategias de marketing destinadas a la adquisición de nuevos clientes. Además, planificar y llevar a cabo la migración del sistema utilizando la plataforma Laravel Orchid para asegurar un proceso eficiente y efectivo."
+                "date": "08\/2018 - Present",
+                "description": "Design, develop, and optimize a manufacturing system hosted on AWS, using a diverse set of technologies including Python, PHP, Node.js, and SQL. Maintain constant communication with clients to address issues, implement new functionalities, and design marketing strategies aimed at acquiring new customers. Additionally, plan and execute the system migration using the Laravel Orchid platform to ensure an efficient and effective process."
             },
             {
                 "title": "Continuous improvement analyst",
                 "company": "Forjas Bolivar S.A.S",
                 "date": "12\/2016 - 12\/2019",
-                "description": "Mejorar procesos productivos para reducir costos y tiempo de entrega en varias líneas de producción, implementar TPM, establecer estándares de proceso para mejorar la productividad y calidad. Liderar áreas de producción, implementar programas de innovación y desarrollar una intranet corporativa para reportar órdenes, inventario e indicadores con gráficos."
+                "description": "Improve production processes to reduce costs and delivery times across multiple production lines, implement Total Productive Maintenance (TPM), establish process standards to enhance productivity and quality. Lead production areas, implement innovation programs, and develop a corporate intranet for reporting orders, inventory, and indicators with graphical representation."
             }
         ]
     }
