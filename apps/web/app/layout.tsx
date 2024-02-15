@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(averia.className, "mt-20")}>
+      <body className={cn(averia.className, "py-20")}>
         <Container size="lg">{children}</Container>
       </body>
     </html>

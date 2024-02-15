@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "title": "Hola,<br>soy <span class=\"text-primary-300\">Sammy</span><br>Full Stack developer",
+        "button": "Download CV"
+    },
+    "aboutMe": {
+        "title": "About Me",
+        "description": "Highly innovative and results-oriented professional with a solid 3-year experience in continuous improvement and a 5-year track record in web design and development across various industries. Noteworthy for expertise in database development, user interface creation, code writing and testing, as well as problem-solving for both simple and complex issues. A specialist in implementing new functionalities based on user feedback, efficient time management, and effective team leadership."
+    },
+    "education": {
+        "title": "Education",
+        "list": [
+            {
+                "title": "Production Engineering",
+                "school": "EAFIT University",
+                "date": "2013 - 2019"
+            },
+            {
+                "title": "Full Stack Software Developer",
+                "school": "Holberton School",
+                "date": "2020 - 2020"
+            },
+            {
+                "title": "MBA",
+                "school": "EUDE Business school",
+                "date": "2024 - Present"
+            }
+        ]
+    },
+    "experiences": {
+        "title": "Experiences",
+        "list": [
+            {
+                "title": "Frontend Team Lead",
+                "company": "Serempre",
+                "date": "12\/2020 - Present",
+                "description": "Management and development of multiple projects encompassing React, React Native, Vue.js, and Webpack technologies, both in user interface (UI) and logic, using various libraries and tools such as Tailwind, Storybook, TypeScript, Redux, Anime.js, and Styled Components. Contribution to project estimation, task allocation, and code review, with a focus on improving architecture using approaches like Model-View-Controller (MVC) and Hexagonal to achieve optimal results."
+            },
+            {
+                "title": "CEO",
+                "company": "iTPM Software",
+                "date": "08\/2018 - Actualidad",
+                "description": "Diseñar, desarrollar y optimizar un sistema de manufactura alojado en AWS, haciendo uso de un conjunto diverso de tecnologías que incluyen Python, PHP, Node.js y SQL. Mantener una comunicación constante con los clientes para abordar problemas, implementar nuevas funcionalidades y diseñar estrategias de marketing destinadas a la adquisición de nuevos clientes. Además, planificar y llevar a cabo la migración del sistema utilizando la plataforma Laravel Orchid para asegurar un proceso eficiente y efectivo."
+            },
+            {
+                "title": "Continuous improvement analyst",
+                "company": "Forjas Bolivar S.A.S",
+                "date": "12\/2016 - 12\/2019",
+                "description": "Mejorar procesos productivos para reducir costos y tiempo de entrega en varias líneas de producción, implementar TPM, establecer estándares de proceso para mejorar la productividad y calidad. Liderar áreas de producción, implementar programas de innovación y desarrollar una intranet corporativa para reportar órdenes, inventario e indicadores con gráficos."
+            }
+        ]
+    }
+}

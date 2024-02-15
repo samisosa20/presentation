@@ -23,7 +23,7 @@ export const typographyStyles = cva("", {
   variants: {
     variant: {
       h1: "text-4xl md:text-6xl",
-      h2: "text-3xl md:text-5xl",
+      h2: "text-3xl md:text-5xl font-bold",
       h3: "text-2xl md:text-4xl",
       h4: "text-xl md:text-3xl",
       h5: "text-xl md:text-2xl",
