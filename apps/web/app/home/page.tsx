@@ -9,6 +9,7 @@ import {
 } from "@/components";
 
 import { DictInterface } from "../[lang]/dictionaries.interface";
+import Link from "next/link";
 
 interface HomeProps {
   dict: DictInterface;
@@ -42,8 +43,12 @@ export function Home({ dict }: HomeProps) {
             {dict.hero.button}
           </Button>
           <Stack direction="row" spacing="lg" align="center">
-            <Icons.linkedin className="cursor-pointer" />
-            <Icons.github className="cursor-pointer" />
+            <Link href={"https://www.linkedin.com/in/samgutlon/"} target="_blank">
+              <Icons.linkedin className="cursor-pointer" />
+            </Link>
+            <Link href={"https://github.com/samisosa20"} target="_blank">
+              <Icons.github className="cursor-pointer" />
+            </Link>
           </Stack>
         </Stack>
         <div className="bg-gray-300 h-[300px] w-[300px]"></div>

@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://github.com/samisosa20/samisosa20/blob/master/banner.png" alt="banner" width="100%"/>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  
+</head>
+<h2 align="left">Hi 👋! My name is Sammy and I'm a full stack developer, from Colombia</h2>
 
-## Getting Started
 
-First, run the development server:
+<h3 align="center"><a id="About_me_6"></a>About me :boy:</h3>
+<p>
+  Highly innovative and results-oriented professional with a solid 3-year experience in continuous improvement and a 5-year track record in web design and development across various industries. Noteworthy for expertise in database development, user interface creation, code writing and testing, as well as problem-solving for both simple and complex issues. A specialist in implementing new functionalities based on user feedback, efficient time management, and effective team leadership.
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">:camping: camping | :earth_americas: Travel | :motorcycle: ride motorcycle | :fish: 
+delicious food</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+###
 
-## Learn More
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=samisosa20&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=samisosa20&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+###
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align="left">
+  <h4>Elemental</h4>
+  <div>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+    <img width="12" />
+  </div>
+  <div>
+    <h4>Styling</h4>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
+    <img width="12" />
+    <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="30" alt="tailwindcss logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="30" alt="storybook logo"  />
+    <img width="12" />
+    <img src="https://skillicons.dev/icons?i=styledcomponents" height="30" alt="styledcomponents logo"  />
+    <img width="12" />
+  </div>
+  <div>
+    <h4>Libraries and frameworks - Frontend</h4>
+    <img src="https://cdn.simpleicons.org/react/61DAFB" height="30" alt="react logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="30" alt="vuejs logo"  />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
+    <img width="12" />
+    <img src="https://cdn.simpleicons.org/redux/764ABC" height="30" alt="redux logo"  />
+    <img width="12" />
+  </div>
+  <div>
+    <h4>Libraries and frameworks - Backend</h4>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
+    <img width="12" />
+    <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="30" alt="laravel logo"  />
+     <img width="12" />
+    
+  </div>
+  <div>
+    <h4>Database</h4>
+    <div>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+    </div>
+  </div>
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###
 
-## Deploy on Vercel
+<br clear="both">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://raw.githubusercontent.com/samisosa20/samisosa20/output/snake.svg" alt="Snake animation" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###
+
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
