@@ -1,8 +1,11 @@
+"use client";
+import { useEffect } from "react";
+import Typewriter from "typewriter-effect";
+
 import {
   Button,
   Icons,
   Stack,
-  Typography,
   Carrusel,
   Card,
   EducationCard,
@@ -10,40 +13,59 @@ import {
 
 import { DictInterface } from "../[lang]/dictionaries.interface";
 import Link from "next/link";
+import { useLangStore, animateHome, cn } from "@/src/lib/utils";
 
 interface HomeProps {
   dict: DictInterface;
+  lang: string;
 }
 
 type Education = {
   title: string;
   school: string;
   date: string;
-}
+};
 
 type experience = {
   title: string;
   company: string;
   date: string;
   description: string;
-}
+};
 
-export function Home({ dict }: HomeProps) {
+export function Home({ dict, lang }: HomeProps) {
+  const { setLang } = useLangStore();
+
+  useEffect(() => {
+    setLang(lang);
+  }, [lang]);
+
+  const { typewriterRef, isEndTitleAnimation } = animateHome();
+
   return (
-    <Stack className="gap-16">
+    <Stack className="gap-16 overflow-x-hidden">
       <Stack direction="row" justify="spaceBetween" align="center">
         <Stack spacing="sm">
-          <Typography
-            variant="h1"
-            component="h1"
-            dangerouslySetInnerHTML={{ __html: dict.hero.title }}
-          />
-          <Button>
+          <Stack ref={typewriterRef} className="transform translate-x-1/2 translate-y-1/2 md:min-w-[600px]">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString(dict.hero.title).pauseFor(2000).start();
+              }}
+              options={{
+                wrapperClassName: "title",
+                cursorClassName: "title__cursor",
+              }}
+            />
+          </Stack>
+          <Button className={cn(!isEndTitleAnimation ? 'invisible opacity-0' : 'visible opacity-100', 'transition-all ease-in-out duration-700')}>
             <Icons.download />
             {dict.hero.button}
           </Button>
-          <Stack direction="row" spacing="lg" align="center">
-            <Link href={"https://www.linkedin.com/in/samgutlon/"} target="_blank">
+          <Stack direction="row" spacing="lg" align="center" className={cn(!isEndTitleAnimation ? 'invisible opacity-0' : 'visible opacity-100', 'transition-all ease-in-out duration-700')}>
+            <Link
+              href={"https://www.linkedin.com/in/samgutlon/"}
+              target="_blank"
+            >
               <Icons.linkedin className="cursor-pointer" />
             </Link>
             <Link href={"https://github.com/samisosa20"} target="_blank">
@@ -51,9 +73,9 @@ export function Home({ dict }: HomeProps) {
             </Link>
           </Stack>
         </Stack>
-        <div className="bg-gray-300 h-[300px] w-[300px]"></div>
+        <div  className={cn(!isEndTitleAnimation ? 'invisible opacity-0' : 'visible opacity-100', 'transition-all ease-in-out duration-1000 bg-gray-300 h-[300px] w-[300px] rounded-xl')}></div>
       </Stack>
-      <Carrusel />
+      <Carrusel show={isEndTitleAnimation} />
       <Card>
         <Card.Title>{dict.aboutMe.title}</Card.Title>
         <Card.Description>{dict.aboutMe.description}</Card.Description>

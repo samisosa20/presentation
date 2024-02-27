@@ -7,3 +7,4 @@ export * from "./icons";
 export * from "./carrusel"
 export * from "./card"
 export * from "./education"
+export * from "./navbar"

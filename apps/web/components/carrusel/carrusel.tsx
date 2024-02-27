@@ -3,8 +3,13 @@ import { useEffect, useRef } from 'react';
 import anime from 'animejs';
 
 import { Icons, Stack } from "@/components";
+import { cn } from '@/src/lib/utils';
 
-export function Carrusel() {
+interface CarruselProps {
+  show: boolean;
+}
+
+export function Carrusel({ show }: CarruselProps) {
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -13,32 +18,32 @@ export function Carrusel() {
     // Función para manejar el evento de scroll
     const handleScroll = () => {
       const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      const translateX = content ? -content.clientWidth * scrollPercent : scrollPercent;
+      const translateX = content ? -content.clientWidth * scrollPercent + 175 : scrollPercent;
       
       anime({
         targets: content,
         translateX: translateX,
+        rotate: 2,
         easing: 'linear',
-        duration: 0, // No queremos que anime.js anime la transición ya que ya estamos manejando la animación con el evento de scroll
-        loop: false
+        duration: 0,
       });
     };
 
-    // Agregar evento de scroll al montar el componente
     window.addEventListener('scroll', handleScroll);
 
-    // Remover el evento de scroll al desmontar el componente
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
+    <Stack className={cn(!show ? 'invisible opacity-0' : 'visible opacity-100 relative', 'relative transition-all ease-in-out duration-700')}>
+      <Stack className='w-20 h-40 bg-gradient-to-r from-bg-400 absolute z-10' />
       <Stack
         direction="row"
         justify="spaceBetween"
         align="center"
-        className="mt-20 transform rotate-[2deg]"
+        className="mt-20 transform rotate-[2deg] translate-x-[175px]"
         ref={contentRef}
       >
         <Icons.html />
@@ -56,5 +61,7 @@ export function Carrusel() {
         <Icons.laravel />
         <Icons.nestjs />
       </Stack>
+      <Stack className='w-20 h-40 bg-gradient-to-r from-transparent to-bg-400 absolute z-10 right-0' />
+    </Stack>
   );
 };

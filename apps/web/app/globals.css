@@ -24,4 +24,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .title {
+    @apply text-4xl md:text-6xl text-body-100;
+  }
+  .title__cursor {
+    @apply text-4xl md:text-6xl text-body-100;
+    -webkit-animation: Typewriter-cursor 1s infinite;
+    animation: Typewriter-cursor 1s infinite;
+  }
 }

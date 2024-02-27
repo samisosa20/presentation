@@ -10,5 +10,5 @@ interface LangProps {
  
 export default async function PageLang({ params: { lang } }: LangProps) {
   const dict = await getDictionary(lang ?? 'en')
-  return <Home dict={dict} />
+  return <Home dict={dict} lang={lang ?? 'en'} />
 }

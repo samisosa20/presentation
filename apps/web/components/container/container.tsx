@@ -1,3 +1,5 @@
+import { cn } from "@/src/lib/utils";
+
 interface ContainerLayoutProps {
   children: React.ReactNode;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
@@ -15,7 +17,7 @@ const style = {
 
 export function Container({ children, size = "md" }: ContainerLayoutProps) {
   return (
-    <div className={`${style.size[size]} mx-auto w-full p-4 md:p-0`}>
+    <div className={cn(style.size[size], 'mx-auto w-full p-4 md:p-0')}>
       {children}
     </div>
   );
